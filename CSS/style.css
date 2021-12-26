@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.navbar-brand{
+font-size: 2.23rem;
+}
+.navbar-collapse{
+    font-size:1.23rem;
+}
+
+ 
+.navbar-light{
+    background-color:#faa9db;
+}
+.container .row .col-2{
+    padding-left: 0;
+}
+.Underline{
+    margin-bottom: 40px;
+    display: inline-block;
+    border-bottom:7px solid #faa9db;
+    
+}
+
+/* .Underline::after{
+    content:'';
+    position: relative;
+    height:2px;
+    width:20%;
+    display: block;
+    background:#f24432;
+} */
+.rating {
+    font-size: 15px;
+}
+
+.clicked {
+    color: #faa9db;
+}
+.btn{
+    background-color: white;
+    color:#be4c93;
+    font-weight:10px;
+    border: 2px solid #faa9db;
+}
+.btn:hover{
+    background-color: #faa9db;
+    color:white;
+    border: 1px solid #be4c93;
+}
+.card-group .card{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin:0 20px 20px 0;  
+    
+ }
+.card{
+    text-align: center;
+    border-radius: 0;   
+    margin:0 20px 20px 0; 
+ 
+}
+.col-2 .card{
+    text-align: center;
+   border:none ;
+    margin:0 20px 20px 0; 
+ transition: transform 1s ;
+}
+
+.card:hover {
+    box-shadow: 3px 5px 7px rgba(109, 108, 108, 0.534), -3px -5px 7px rgba(109, 108, 108, 0.534);
+  }
+   .card-img-top{
+      border-radius: 0;
+      height: 260px;     
+
+  }
+  .inner{
+      overflow: hidden;
+  }
+  .inner img{
+      transition: all 1.5s ease;
+  }
+  .inner:hover img{
+transform: scale(1.4);
+  }  
+  #hide1,#hide2,#hide3{
+      margin-left:25px;
+      padding:5px;
+      border: 1px solid #faa9db;
+      box-shadow: 2px 2px 2px #faa9db;
+      background-color: #e175b833;
+
+  }
+ 
+  .arrow{    
+    cursor: pointer;
+  }
+ .arrow:before{
+margin-right: 5px;
+content:url("/Images/right-arrow.png");
+color: #faa9db;
+  }
+   .fab {
+      color:#faa9db;      
+  }
+  
+ 
+ 
+  .footer{
+    width:100%;
+  }
+  .footer p{
+      background-color:#faa9db ;
+      text-align: center;
+    border-top: 1px solid  #faa9db;
+    margin-bottom: 0;
+    
+  } 
+ 
