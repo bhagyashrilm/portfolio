@@ -1,4 +1,4 @@
-const message = 'Hello !!!';
+const message = 'Hello!!!';
 
 const typingPromises = (message, timeout) =>
   [...message].map(

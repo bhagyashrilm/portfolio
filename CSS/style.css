@@ -21,14 +21,6 @@ font-size: 2.23rem;
     
 }
 
-/* .Underline::after{
-    content:'';
-    position: relative;
-    height:2px;
-    width:20%;
-    display: block;
-    background:#f24432;
-} */
 .rating {
     font-size: 15px;
 }
