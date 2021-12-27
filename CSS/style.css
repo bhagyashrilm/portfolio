@@ -99,13 +99,13 @@ color: #faa9db;
   
  
  
-  .footer{
+  /* .footer{
     width:100%;
-  }
-  .footer p{
-      background-color:#faa9db ;
-      text-align: center;
-    border-top: 1px solid  #faa9db;
+    color:#faa9db ;     
+  } */
+ .text-muted{
+    color: #faa9db !important;
+    text-align: center;   
     margin-bottom: 0;
     
   } 
